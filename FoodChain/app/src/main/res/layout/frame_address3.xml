@@ -6,7 +6,7 @@
 
     <!--서버에서 받아와야대애애-->
     <TextView
-        android:layout_width="119dp"
+        android:layout_width="wrap_content"
         android:layout_height="20dp"
         android:textSize="15dp"
         android:textColor="#2B2B2B"
