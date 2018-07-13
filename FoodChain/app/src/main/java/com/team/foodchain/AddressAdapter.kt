@@ -26,8 +26,8 @@ class AddressAdapter(var AddressItem : ArrayList<String>) : RecyclerView.Adapter
                 .inflate(R.layout.address_item, parent, false)
         mainView.setOnClickListener(onItemClick)
         var addressActivity = AddressActivity()
-        var convertAddress : Address = addressActivity.run(resultAddress!!)
-        Log.e("안녕",convertAddress.latitude.toString() + convertAddress.longitude.toString())
+       // var convertAddress : Address = addressActivity.run(resultAddress!!)
+      //  Log.e("안녕",convertAddress.latitude.toString() + convertAddress.longitude.toString())
 
         return AddressViewHolder(mainView)
     }
